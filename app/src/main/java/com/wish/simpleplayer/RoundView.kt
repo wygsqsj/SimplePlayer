@@ -19,6 +19,7 @@ import androidx.annotation.ColorInt
 class RoundView(context: Context, attrs: AttributeSet?, defStyleAttr: Int) :
     FrameLayout(context, attrs, defStyleAttr) {
 
+
     private val mPaint: Paint = Paint()
 
     override fun onMeasure(widthMeasureSpec: Int, heightMeasureSpec: Int) {
